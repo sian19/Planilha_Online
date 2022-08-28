@@ -16,5 +16,10 @@ Uma planilha online feito utilizando ReactJS no front end e firebase no back end
   <li>Foi utilizado styled components para estilizar alguns componentes para dessa forma o trabalho de alterar algumas cores de forma dinâmica pegando por base estados ficando mais fácil o desenvolvimento.</li>
   <li>Foi utilizado ContextAPI para trabalhar alguns estados de forma global.</li>
   <li>Foi utilizado um estado global para fazer a alteração do tema do site de masculino para feminino ou vice versa.</li>
-  <li></li>
+  
+  <h4>Back End</h4>
+  <li>Foi utilizado o Firebase para desenvolver os processos internos da aplicação.</li>
+  <li>Se criou um arquivo js onde fica os dados da aplicação criada no firebase, então basta importar as funções do firebase para utilizar recursos como autenticação e fazer requisições no banco de dados (CRUD).</li>
+  <li>Foi utilizado a biblioteca firebase-auth para fazer com que o usuário tenha a opção de logar com o Facebook ou o Google.</li>
+  <li>Foi utilizado a biblioteca firebase-firestorage para guardar os dados criados, ler os dados e exibi-los em tela quando solicitado pelo usuário, editar os dados e apagar algum dado em específico.</li>
 </ul>
