@@ -179,6 +179,7 @@ function Mes(){
                                 <option style={{backgroundColor: !theme ? 'var(--rose3)' : 'var(--blueQuen)'}}>Junho</option>
                                 <option style={{backgroundColor: !theme ? 'var(--rose3)' : 'var(--blueQuen)'}}>Julho</option>
                                 <option style={{backgroundColor: !theme ? 'var(--rose3)' : 'var(--blueQuen)'}}>Agosto</option>
+                                <option style={{backgroundColor: !theme ? 'var(--rose3)' : 'var(--blueQuen)'}}>Setembro</option>
                                 <option style={{backgroundColor: !theme ? 'var(--rose3)' : 'var(--blueQuen)'}}>Outubro</option>
                                 <option style={{backgroundColor: !theme ? 'var(--rose3)' : 'var(--blueQuen)'}}>Novembro</option>
                                 <option style={{backgroundColor: !theme ? 'var(--rose3)' : 'var(--blueQuen)'}}>Dezembro</option>
