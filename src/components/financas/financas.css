@@ -1,0 +1,247 @@
+
+.center{
+    max-width: 1200px;
+    margin: auto;
+}
+
+.center > h2{
+    text-align: center;
+    padding-top: 45px;
+    font-size: 2rem;
+    color: var(--rose1);
+    letter-spacing: 2px;
+}
+
+.button{
+    width: 100%;
+}
+
+
+.inputs{
+    background-color: rgba(238, 177, 213, 0.5);
+    border-radius: 12px;
+    max-width: 550px;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 15px 10px;
+}
+
+.box{
+    width: 50%;
+}
+
+.box h3{
+    font-size: 1.3rem;
+    color: var(--green);
+    padding-bottom: 2px;
+}
+
+.box:nth-of-type(1n + 3){
+    padding-top: 16px;
+}
+
+input[type=number]::-webkit-inner-spin-button {
+
+    -webkit-appearance: none;
+    
+    }
+    
+    input[type=number] {
+    
+    -moz-appearance: textfield;
+    
+    appearance: textfield;
+    
+    }
+
+.inputs input, select{
+    outline: 0;
+    font-size: 1rem;
+    padding: 6px 4px;
+    border-radius: 6px;
+    color: var(--rose2);
+    margin-top: 5px;
+    width: 85%;
+}
+
+
+table{
+    display: block;
+    margin: auto;
+    margin-top: 20px;
+    max-width: 900px;
+}
+
+thead{
+   display: block;
+   color: var(--green);
+   
+}
+
+tr{
+    display: flex;
+    text-align: center;
+    width: 100%;
+}
+
+th:nth-of-type(3){
+    width: 13%;
+}
+
+tbody{
+    display: block;
+    background-color: var(--green);
+}
+
+
+td:nth-of-type(3){
+    width: 13%;
+}
+
+.table{
+    overflow-x: auto;
+}
+
+.info-desktop{
+    text-align: center;
+    margin-top: 20px;
+    color: var(--rose1);
+    display: block;
+    padding: 5px 2px;
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 12px;
+}
+
+.erro{
+    color: red;
+    font-size: 1rem;
+    width: 100%;
+    text-align: center;
+    padding-top: 12px;
+}
+
+select{
+    cursor: pointer;
+}
+
+select option{
+    background-color: var(--rose3);
+    color: var(--green);
+    cursor: pointer;
+}
+
+.container-total{
+    display: flex;
+    gap: 14px;
+}
+
+.container-total h2{
+    font-size: 1.2rem;
+}
+
+.button-edit button:last-child{
+    width: 40px;
+}
+
+.title-theme{
+    color: var(--rose1);
+    text-align: center;
+    padding-top: 12px;
+}
+
+.button-theme{
+    width: 60px;
+    border: 1px solid var(--rose1);
+    border-radius: 12px;
+    margin: auto;
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+.button-theme button{
+    border-radius: 12px;
+    background-color: var(--rose1);
+    color: var(--green);
+    width: 30px;
+    display: block;
+    cursor: pointer;
+    transition: 2s;
+}
+
+@media screen and (max-width:550px){
+    .center > h2{
+        font-size: 1.4rem;
+    }
+
+   .inputs h3{
+        font-size: 0.85rem;
+   }
+
+   .inputs input, select{
+        font-size: 0.80rem;
+   }
+
+   table tr th{
+        font-size: 0.70rem;
+   }
+
+
+   table tr td{
+        font-size: 0.70rem;
+   }
+
+   .container-total h2{
+        font-size: 0.85rem;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .info-mob{
+        display: block;
+    }
+
+    .info-desktop{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .inputs{
+        flex-direction: column;
+        max-width:250px;
+    }
+
+    select{
+        width: 100%;
+    }
+
+    .box{
+        width: 100%;
+    }
+
+    .button button{
+        max-width: 70px;
+        font-size: 0.72rem;
+    }
+
+    .box input{
+        width: 100%;
+    }
+
+    .box:nth-of-type(1n + 2){
+        padding-top: 16px;
+    }
+
+    table{
+        width: 400px;
+    }
+
+}
+
+@media screen and (max-width: 936px){
+    table{
+        width: 900px;
+    }
+}

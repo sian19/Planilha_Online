@@ -1,0 +1,83 @@
+.modal-delet{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgba(238, 177, 213, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 3%;
+}
+
+.container-modal-delet{
+    border-radius: 12px;
+}
+
+.container-modal-delet header{
+    width: 100%;
+    position: static;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: var(--green); 
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+.container-modal-delet header h4{
+    font-weight: 300;
+}
+
+.container-modal-delet .buttons{
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    padding-top: 11px;
+    padding-bottom: 10px;
+}
+
+.closed-img{
+    width: 14px;
+    height: 14px;
+    cursor: pointer;
+}
+
+.closed-img img{
+    width: 100%;
+    height: 100%;
+}
+
+.container-modal-delet h3{
+    text-align: center;
+    font-size: 1rem;
+    color: var(--green);
+    font-weight: 300;
+    margin-top: 15px;
+    padding: 0 12px;
+}
+
+@media screen and (max-width: 550px){
+    .container-modal-delet header h4{
+        font-size: 0.85rem;
+    }
+
+    .closed-img{
+        width: 11px;
+        height: 11px;
+        margin-top: -10px;
+    }
+
+    .container-modal-delet h3{
+        font-size: 0.85rem;
+        margin-top: 12px;
+    }
+
+    .container-modal-delet .buttons button{
+        padding: 4px;
+        border-radius: 5px;
+        font-size: 0.70rem;
+    }
+    
+}

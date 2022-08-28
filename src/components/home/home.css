@@ -1,0 +1,113 @@
+.login{
+    width: 100%;
+    min-height: 100vh;
+    background: linear-gradient( var(--rose1), var(--rose2), var(--rose3));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 3%;
+    flex-direction: column;
+}
+
+.form{
+    background-color: rgba(224, 239, 218, 0.4);
+    border-radius: 12px;
+    padding: 20px 8px;
+    text-align: center;
+}
+
+.form h2{
+    font-size: 1.2rem;
+    color: var(--rose1);
+    padding-bottom: 12px;
+}
+
+.login > h2, .home h2{
+    color: var(--green);
+    font-size: 2.2rem;
+    padding-bottom: 12px;
+}
+
+.form img{
+    width: 40px;
+    height: 40px;
+}
+
+.form button:nth-of-type(2) > img{
+   width: 28px;
+   height: 28px;
+   margin-right: 8px;
+}
+
+
+.form button:nth-of-type(2){
+    margin-top: 12px;
+    padding-left: 7px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+}
+
+.home{
+    width: 100%;
+    min-height: 100vh;
+    padding: 20px 3%;
+    padding-top: 80px;
+    text-align: center;
+    background: linear-gradient(var(--rose1), var(--rose2), var(--rose3));
+}
+
+.home p{
+    font-size: 1.2rem;
+    color: var(--green);
+    padding-bottom: 12px;
+    line-height: 1.4;
+    max-width: 900px;
+    margin: auto;
+}
+
+
+@media screen and (max-height: 440px){
+    .login > h2{
+        margin-top: 80px
+    }
+}
+
+@media screen and (max-width: 550px){
+    .home p{
+        font-size: 0.95rem;
+        max-width: 300px;
+        margin: auto;
+    }
+
+    .form h2{
+        font-size: 0.95rem;
+    }
+
+    .login > h2, .home h2{
+        font-size: 1.5rem;
+    }
+
+    .form button{
+        font-size: 0.75rem;
+        padding: 6px 4px;
+        padding-right: 8px;
+        width: 100px;
+    }
+
+    .form button:nth-of-type(2){
+        font-size: 0.75rem;
+        padding: 8px 13px;
+        padding-right: 8px;
+        padding-left: 7.4px;
+    }
+
+    .form button > img{
+        width: 22px;
+        height: 22px;
+    }
+
+    .form button:nth-of-type(2) > img{
+        width: 16px;
+        height: 16px;
+    }
+}
