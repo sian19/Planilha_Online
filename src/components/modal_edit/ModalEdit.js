@@ -43,7 +43,7 @@ function ModalEdit({modalEdit, setModalEdit, datsEdit, month, inputTheme}){
 
     
     return(
-        <div className='modal-edit' style={{display: modalEdit ? 'flex' : 'none'}}>
+        <div className='modal-edit' style={{display: modalEdit ? 'flex' : 'none', backgroundColor: inputTheme ? 'rgba(111, 175, 227, 0.6)' : 'rgba(238, 177, 213, 0.5)'}}>
             <div className='container-modal-edit' style={{background: inputTheme ? 'linear-gradient(to left, var(--blueSky), var(--blueQuen))' : 'linear-gradient(to left, var(--rose3), var(--rose1))'}}>
 
                 <header style={{color: inputTheme ? 'var(--blueSky)' : 'var(--rose1)'}}>

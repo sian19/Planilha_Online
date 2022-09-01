@@ -22,7 +22,7 @@ function ModalDelet({modal, setModalDel, id, month, inputTheme}){
 
 
     return(
-        <div className='modal-delet' style={{display: modal ? 'flex' : 'none'}}>
+        <div className='modal-delet' style={{display: modal ? 'flex' : 'none', backgroundColor: inputTheme ? 'rgba(111, 175, 227, 0.6)' : 'rgba(238, 177, 213, 0.5)'}}>
             <div className='container-modal-delet' style={{background: inputTheme ? 'linear-gradient(to left, var(--blueSky), var(--blueQuen)' : 'linear-gradient(to left, var(--rose1), var(--rose3))'}}>
 
                 <header style={{color:inputTheme ? 'var(--blueSky)' : 'var(--rose1)'}}>
